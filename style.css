@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(88, 39, 4);
+    color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    top: 200px;
+
+}
+.counter{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.loading-bar-back {
+    position: absolute;
+    height: 8px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.loading-bar-front {
+    position: absolute;
+    height: 8px;
+    background-color: rgb(48, 159, 0);
+    width: 0%;
+    border-radius: 5px;
+    border: none;
+}
+#restartButton {
+    width: 300px;
+    height: 75px;
+    position: absolute;
+    bottom: 150px;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    background-color: antiquewhite;
+    color: chocolate;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+#restartButton:hover {
+    background-color: chocolate;
+    color: antiquewhite;
+    content: "Restart";
+}
+.hide {
+    display:none;
+}
+h1 {
+    font-size: 55px;
+}
